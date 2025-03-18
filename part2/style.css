@@ -1,0 +1,116 @@
+
+body {
+    background-color: #f3d0a2; 
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #e4b7b7; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #b75552;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #431b1b; 
+  }
+  
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    border: 2px solid #b75252;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    background-color: #f3d8d8;
+    color: #431b1b;
+  }
+  
+  button[type="submit"] {
+    background-color: #914040;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #431b1b;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3d8d8; 
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    background-color: #e4b7b7; 
+  }
+  
+  li span {
+    flex-grow: 1;
+    margin-right: 10px;
+    color: #1b4332;
+  }
+  
+  li button {
+    background-color: #b75252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  li button:hover {
+    background-color: #431b1b;
+  }
+  
+  li.completed {
+    background-color: #c4a3a3;
+  }
+  
+  li.completed span {
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+    accent-color: #b75252;
+    transition: accent-color 0.3s ease-in-out;
+  }
+  
+  li input[type="checkbox"]:checked {
+    accent-color: #431b1b;
+  }
+  
